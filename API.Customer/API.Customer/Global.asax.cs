@@ -7,6 +7,7 @@ namespace API.Customer
         protected void Application_Start(object sender, EventArgs e)
         {
             new AppHost().Init();
+
         }
     }
 }

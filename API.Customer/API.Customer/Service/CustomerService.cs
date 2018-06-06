@@ -21,7 +21,7 @@ namespace API.Customer.Service
 
         public object Get(GetCustomer request)
         {
-            return new GetCustomerResponse { Result = $"Hello Customer ID = {request.Id}" };
+            return new GetCustomerResponse { Result = $"Customer ID = {request.Id}", ResponseStatus = new ResponseStatus() };
         }
     
         public object Post(PostCustomer request)

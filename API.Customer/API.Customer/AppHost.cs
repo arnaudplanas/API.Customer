@@ -23,10 +23,12 @@ namespace API.Customer
         {
             // Enabling the validation
             Plugins.Add(new ValidationFeature());
+            /*
             container.RegisterValidator(typeof(GetCustomerValidator));
             container.RegisterValidator(typeof(PostCustomerValidator));
             container.RegisterValidator(typeof(PutCustomerValidator));
             container.RegisterValidator(typeof(DeleteCustomerValidator));
+            */    
         }
     }
 }
